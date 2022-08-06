@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Prison Ape Gang";
+const description = "AAAAAAAAAAAAAAAAAAAAAAAAAAAA";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://prisonapegang.io/",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       share: 100,
     },
   ],
@@ -24,17 +24,16 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 1000,
     layersOrder: [
-      { name: "1background" },
-      { name: "2base model" },
-      { name: "3clothes" },
-      { name: "4neck" },
-      { name: "5mouth" },
-      { name: "6mouth acc" },
-      { name: "7eyes" },
-      { name: "8nose necklace" },
-      { name: "9hat" },
+      { name: "background" },
+      { name: "fur" },
+      { name: "extras" },
+      { name: "clothes" },
+      { name: "scarf" },
+      { name: "mouth" },
+      { name: "eyes" },
+      { name: "hat" },
     ],
   },
 ];

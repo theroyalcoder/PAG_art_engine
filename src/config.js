@@ -11,7 +11,7 @@ const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 550, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://prisonapegang.io/",
   creators: [
     {
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 8000,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Fur" },
@@ -43,8 +43,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 2000,
-  height: 2000,
+  width: 1200,
+  height: 1200,
   smoothing: false,
 };
 
